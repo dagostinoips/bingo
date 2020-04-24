@@ -1,13 +1,11 @@
 from src.bingo import carton
+from src.bingo import validar_quince_numeros
 
 def test_contar_celdas_ocupadas():
-    mi_carton = carton()
-    contador = 0
-    for fila in mi_carton:
-        for celda in fila:
-            contador = contador + celda
-    
+    carton = (
+        (1,0,1,0,0,1,0,0,1),
+        (1,0,0,1,0,0,1,0,1),
+        (1,0,0,0,1,0,0,1,1),
+     )
     # Esperamos encontrar 15 celdas ocupadas.
-    assert contador == 15
-
-
+    assert validar_quince_numeros(carton) == True
