@@ -11,4 +11,5 @@
 - No pueden existir columnas vacias.
 - No pueden existir columnas con sus tres celdas ocupadas.
 - Cada carton debe tener 3 y solo 3 columas con solo una celda ocupada.
-- En una fila no existen más de dos celdas vacías consecutivas. O tres celdas ocupadas consecutivas.
+- En una fila no existen más de dos celdas vacías consecutivas.
+- En una fila no existen más de dos celdas ocupadas consecutivas.
